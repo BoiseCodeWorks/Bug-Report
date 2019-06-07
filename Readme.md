@@ -53,7 +53,7 @@ var bug = new Schema({
     title: { type: String, required: true },
     creator: { type: String, required: true } //The provided name for who reported the bug
     user: { type: String, required: true },
-    closedDate: { type: String, required: true }
+    closedDate: { type: Date}
 }, { timestamps: true })
 ```
 
